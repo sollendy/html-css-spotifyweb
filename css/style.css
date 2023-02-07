@@ -35,6 +35,50 @@ main aside .aside-cont nav .pleilist {
     gap: .5rem;
 }
 
-header .head-sec {
-    
+footer .foot-cont {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 2%; */
+}
+
+footer .foot-cont .foot-left {
+    display: flex;
+    gap: 1%;
+}
+
+footer .foot-cont .foot-left .brano {
+    display: flex;
+    align-items: center;
+}
+
+footer .foot-cont .foot-left .track-icons {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+}
+
+footer .foot-cont .foot-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+footer .foot-cont .foot-center .center-icons{
+    display: flex;
+    gap: 5%;
+    color: white;
+}
+
+footer .foot-cont .foot-center .track-bar {
+    display: flex;
+    gap: 25%;
+}
+
+footer .foot-cont .foot-right .icon-volume {
+    display: flex;
+    gap: 7%;
 }
