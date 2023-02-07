@@ -40,7 +40,7 @@ footer .foot-cont {
     background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: space-between;
-    /* padding: 0 2%; */
+    padding: 0 1%;
 }
 
 footer .foot-cont .foot-left {
@@ -77,13 +77,32 @@ footer .foot-cont .foot-center .center-icons{
 
 footer .foot-cont .foot-center .track-bar {
     display: flex;
-    gap: 25%;
+    align-items: center;
+    gap: 5%;
     color: white;
 }
 
-footer .foot-cont .foot-right .icon-volume {
+footer .foot-cont .foot-center .track-bar div:nth-child(2) {
+    background-color: grey;
+    width: 25rem;
+    height: .2rem;
+}
+
+footer .foot-cont .foot-right {
     display: flex;
-    justify-content: space-between;
+}
+
+footer .foot-cont .foot-right .icon-volume {
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 7%;
+    /* align-content: center; */
+    gap: 5%;
+}
+
+footer .foot-cont .foot-right .icon-volume div {
+    background-color: grey;
+    height: .2rem;
+    width: 10rem;
 }
