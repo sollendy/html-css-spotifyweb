@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header aside .aside-cont {
+main aside .aside-cont {
     background-color: black;
     color: grey;
     width: 17vw;
@@ -17,20 +17,24 @@ header aside .aside-cont {
     color: white;
 }
 
-header aside .aside-cont nav {
+main aside .aside-cont nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-header aside .aside-cont nav .tre-tasti {
+main aside .aside-cont nav .tre-tasti {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
 
-header aside .aside-cont nav .pleilist {
+main aside .aside-cont nav .pleilist {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+header .head-sec {
+    
 }
