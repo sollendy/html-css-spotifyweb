@@ -69,7 +69,8 @@ footer .foot-cont .foot-center {
 
 footer .foot-cont .foot-center .center-icons{
     display: flex;
-    gap: 5%;
+    justify-content: center;
+    gap: 25%;
     color: white;
 }
 
