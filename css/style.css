@@ -74,12 +74,16 @@ footer .foot-cont .foot-center .center-icons{
     color: white;
 }
 
+
 footer .foot-cont .foot-center .track-bar {
     display: flex;
     gap: 25%;
+    color: white;
 }
 
 footer .foot-cont .foot-right .icon-volume {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 7%;
 }
