@@ -179,9 +179,15 @@ footer .foot-cont .foot-center {
 footer .foot-cont .foot-center .center-icons{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 25%;
     color: white;
 }
+
+footer .foot-cont .foot-center .center-icons .fa-circle-play {
+    font-size: 150%;
+}
+
 
 
 footer .foot-cont .foot-center .track-bar {
