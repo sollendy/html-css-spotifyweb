@@ -118,7 +118,6 @@ main aside .aside-cont .bottom-nav .user .profile span b {
     color: white;
 }
 
-
 main aside .aside-cont .bottom-nav .user .profile img {
     width: 22px;
     background-color: grey;
@@ -135,6 +134,7 @@ footer .foot-cont {
 }
 
 footer .foot-cont .foot-left {
+    width: 300px;
     display: flex;
     /* gap: 2%; */
     color: grey;
@@ -173,6 +173,7 @@ footer .foot-cont .foot-center {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     gap: 5%;
 }
 
@@ -205,6 +206,7 @@ footer .foot-cont .foot-center .track-bar div:nth-child(2) {
 
 footer .foot-cont .foot-right {
     display: flex;
+    width: 210px;
 }
 
 footer .foot-cont .foot-right .icon-volume {
