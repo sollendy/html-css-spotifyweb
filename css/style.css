@@ -8,16 +8,14 @@ body {
 }
 
 .general-cont .aside-center {
-    width: calc(100% - 200px);
+    width: 100%;
     height: calc(100% - 100px);
-}
-
-.aside-center {
     display: flex;
 }
 
 aside {
     height: 100%;
+    width: 200px;
 }
 
 main aside .aside-cont {
@@ -129,7 +127,8 @@ main aside .aside-cont .bottom-nav .user .profile img {
 }
 
 .corpo-cent {
-    /* width: calc(100% + 200px); */
+    width: calc(100% - 200px);
+    background-color: rgb(20, 25, 34);
 }
 
 footer .foot-cont {
@@ -211,6 +210,7 @@ footer .foot-cont .foot-center .track-bar div:nth-child(2) {
     min-width: 25%;
     flex-grow: 1;
     height: .2rem;
+    border-radius: 20px;
 }
 
 footer .foot-cont .foot-right {
@@ -225,10 +225,12 @@ footer .foot-cont .foot-right .icon-volume {
     align-items: center;
     /* align-content: center; */
     gap: 5%;
+    width: 90%;
 }
 
 footer .foot-cont .foot-right .icon-volume div {
     background-color: grey;
     height: .2rem;
-    width: 10rem;
+    width: 100%;
+    border-radius: 20px;
 }
