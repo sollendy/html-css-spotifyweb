@@ -12,6 +12,10 @@ body {
     height: calc(100% - 100px);
 }
 
+.aside-center {
+    display: flex;
+}
+
 aside {
     height: 100%;
 }
@@ -124,6 +128,10 @@ main aside .aside-cont .bottom-nav .user .profile img {
     border-radius: 50%;
 }
 
+.corpo-cent {
+    /* width: calc(100% + 200px); */
+}
+
 footer .foot-cont {
     width: 100%;
     height: 100px;
@@ -189,18 +197,19 @@ footer .foot-cont .foot-center .center-icons .fa-circle-play {
     font-size: 150%;
 }
 
-
-
 footer .foot-cont .foot-center .track-bar {
     display: flex;
     align-items: center;
     gap: 5%;
     color: white;
+    width: 55%;
 }
 
 footer .foot-cont .foot-center .track-bar div:nth-child(2) {
     background-color: grey;
-    width: 25rem;
+    max-width: 100%;
+    min-width: 25%;
+    flex-grow: 1;
     height: .2rem;
 }
 
