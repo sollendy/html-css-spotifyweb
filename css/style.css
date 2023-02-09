@@ -187,9 +187,8 @@ main aside .aside-cont .bottom-nav .user .profile img {
 .corpo-cent .album-sec .item-cont {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 10px;
-    
 }
 
 .corpo-cent .album-sec .item-cont .item {
@@ -200,6 +199,23 @@ main aside .aside-cont .bottom-nav .user .profile img {
 
 .corpo-cent .album-sec .item-cont .item img {
     width: 100%;
+}
+
+.corpo-cent .album-sec .item-cont-2 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.corpo-cent .album-sec .item-cont-2 .item {
+    width: calc(100% / 6 - (10px / 6 * 5));
+}
+
+.corpo-cent .album-sec .item-cont-2 .item img {
+    width: 100%;
+}
+
+.corpo-cent .album-sec .item-cont-2 .item .3rd-images {
 }
 
 
@@ -308,6 +324,10 @@ footer .foot-cont .foot-right .icon-volume div {
 }
 
 @media  screen and (max-width: 768px) {
+    .corpo-cent .album-sec .item-cont {
+        flex-wrap: wrap;
+    }
+
     .corpo-cent .album-sec .item-cont .item {
         width: 23%;
     }
