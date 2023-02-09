@@ -181,7 +181,12 @@ main aside .aside-cont .bottom-nav .user .profile img {
 }
 
 .corpo-cent .album-sec {
-    padding: 0 10px;
+    padding: 0 10px 20px 10px;
+}
+
+.corpo-cent .album-sec h2 {
+    color: white;
+    padding-bottom: .9%;
 }
 
 .corpo-cent .album-sec .item-cont {
@@ -192,9 +197,17 @@ main aside .aside-cont .bottom-nav .user .profile img {
 }
 
 .corpo-cent .album-sec .item-cont .item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     /* background-color: aqua; */
     width: calc(100% / 6 * 6 - (10px / 6 * 5));
     /* padding: 45px; */
+    color: white;
+}
+
+.corpo-cent .album-sec .item-cont .item h4 {
+    opacity: 0.5;
 }
 
 .corpo-cent .album-sec .item-cont .item img {
@@ -210,6 +223,11 @@ main aside .aside-cont .bottom-nav .user .profile img {
 .corpo-cent .album-sec .item-cont-2 .item {
     width: calc(100% / 6 - (10px / 6 * 5));
 }
+
+.corpo-cent .album-sec .item-cont-2 .item h3 {
+    color: white;
+}
+
 
 .corpo-cent .album-sec .item-cont-2 .item img {
     width: 100%;
