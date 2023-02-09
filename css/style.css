@@ -132,14 +132,46 @@ main aside .aside-cont .bottom-nav .user .profile img {
     background-color: rgb(20, 25, 34);
 }
 
-.corpo-cent .uprage {
-    background-color: white;
-    height: 50px;
+.corpo-cent .upgrade {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 14%;
 }
 
-.corpo-cent .uprage div {
-    height: 40px;
-    background-color: white;
+.corpo-cent .upgrade div {
+    /* height: 40px; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 5px;
+}
+
+.corpo-cent .upgrade div button {
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+.corpo-cent .head-dashboard {
+    width: 100%;
+}
+
+.corpo-cent .head-dashboard ul {
+    list-style-type: none;
+    /* background-color: white; */
+    width: 65%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+/* text-align: center; */
+}
+
+.corpo-cent .head-dashboard ul li {
+    color: white;
+    opacity: 0.5;
 }
 
 footer .foot-cont {
