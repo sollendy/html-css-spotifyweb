@@ -139,7 +139,9 @@ main aside .aside-cont .bottom-nav .user .profile img {
 
 .corpo-cent .upgrade {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 14%;
+    height: 75px;
+    position: fixed;
+    width: calc(100% - 200px);
 }
 
 .corpo-cent .upgrade div {
@@ -161,6 +163,7 @@ main aside .aside-cont .bottom-nav .user .profile img {
 
 .corpo-cent .head-dashboard {
     width: 100%;
+    padding-top: 6%;
 }
 
 .corpo-cent .head-dashboard ul {
@@ -179,6 +182,22 @@ main aside .aside-cont .bottom-nav .user .profile img {
     opacity: 0.5;
     font-size: 10px;
 }
+
+.corpo-cent .head-dashboard ul li {
+    position: relative;
+}
+
+.corpo-cent .head-dashboard ul .active::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(192, 255, 49);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+}
+
 
 .corpo-cent .album-sec {
     padding: 0 10px 20px 10px;
@@ -212,6 +231,10 @@ main aside .aside-cont .bottom-nav .user .profile img {
 
 .corpo-cent .album-sec .item-cont .item img {
     width: 100%;
+}
+
+.corpo-cent .album-sec .item-cont .item img {
+    
 }
 
 .corpo-cent .album-sec .item-cont-2 {
@@ -350,14 +373,17 @@ footer .foot-cont .foot-right .icon-volume div {
         width: 23%;
     }
 
+    .corpo-cent .album-sec .item-cont-2 .item {
+        width: 23%;
+    }
     .corpo-cent .head-dashboard ul {
         flex-wrap: wrap;
     }
 
 footer .foot-cont .foot-left .track-icons {
-    flex-direction: column;
-    justify-content: center;
-}
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media  screen and (max-width: 550px) {
@@ -365,7 +391,9 @@ footer .foot-cont .foot-left .track-icons {
         width: 46%;
     }
 
-
+    .corpo-cent .album-sec .item-cont-2 .item {
+        width: 46%;
+    }
 }
 
 @media screen and (max-width: 400px) {
