@@ -203,9 +203,20 @@ main aside .aside-cont .bottom-nav .user .profile img {
     padding: 0 10px 20px 10px;
 }
 
+.corpo-cent .album-sec .title-cont {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.corpo-cent .album-sec .title-cont h3 {
+    color: white;
+    opacity: 0.5;
+}
+
 .corpo-cent .album-sec h2 {
     color: white;
-    padding-bottom: .9%;
+    /* padding-bottom: .9%; */
 }
 
 .corpo-cent .album-sec .item-cont {
@@ -213,6 +224,7 @@ main aside .aside-cont .bottom-nav .user .profile img {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 10px;
+    padding-top: .8rem;
 }
 
 .corpo-cent .album-sec .item-cont .item {
@@ -223,7 +235,52 @@ main aside .aside-cont .bottom-nav .user .profile img {
     width: calc(100% / 6 * 6 - (10px / 6 * 5));
     /* padding: 45px; */
     color: white;
+    text-align: center;
 }
+
+.corpo-cent .album-sec .item-cont .item .img-cont {
+    width: 100%;
+    position: relative;
+}
+
+.corpo-cent .album-sec .item-cont .item .img-cont .img-play {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.462);
+    font-size: 2em;
+}
+
+.corpo-cent .album-sec .item-cont .item .img-cont:hover .img-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo-cent .album-sec .item-cont-2 {
+    padding-top: .8rem;
+}
+
+/* .corpo-cent .album-sec .item-cont-2 .item .img-cont .img-play {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.315);
+    font-size: 2em;
+}
+
+
+.corpo-cent .album-sec .item-cont-2 .item .img-cont:hover .img-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .corpo-cent .album-sec .item-cont .item h4 {
     opacity: 0.5;
@@ -234,7 +291,7 @@ main aside .aside-cont .bottom-nav .user .profile img {
 }
 
 .corpo-cent .album-sec .item-cont .item img {
-    
+
 }
 
 .corpo-cent .album-sec .item-cont-2 {
