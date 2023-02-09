@@ -128,7 +128,18 @@ main aside .aside-cont .bottom-nav .user .profile img {
 
 .corpo-cent {
     width: calc(100% - 200px);
+    height: 100%;
     background-color: rgb(20, 25, 34);
+}
+
+.corpo-cent .uprage {
+    background-color: white;
+    height: 50px;
+}
+
+.corpo-cent .uprage div {
+    height: 40px;
+    background-color: white;
 }
 
 footer .foot-cont {
