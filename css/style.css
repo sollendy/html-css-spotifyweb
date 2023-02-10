@@ -166,6 +166,12 @@ main aside .aside-cont .bottom-nav .user .profile img {
     background-color: rgba(0, 0, 0, 0.7);
     border: solid 1px white;
     border-radius: 20px;
+    transition: .2s;
+}
+
+.corpo-cent .upgrade div button:hover {
+    transform: scale(1.1);
+    margin-right: 15px;
 }
 
 .corpo-cent .head-dashboard {
@@ -446,6 +452,11 @@ footer .foot-cont .foot-center .track-bar div:nth-child(2) {
     flex-grow: 1;
     height: .2rem;
     border-radius: 20px;
+    position: relative;
+}
+
+footer .foot-cont .foot-center .track-bar div:nth-child(2) .bar-active::before {
+    left: 20%;
 }
 
 .in-bar {
@@ -453,6 +464,14 @@ footer .foot-cont .foot-center .track-bar div:nth-child(2) {
     height: 100%;
     width: 25%;
     border-radius: 20px;
+}
+
+footer .foot-cont .foot-center .track-bar div:nth-child(2):hover .in-bar {
+    background-color: rgb(192, 255, 49);
+}
+
+footer .foot-cont .foot-center .track-bar div:nth-child(2):hover .bar-active::before {
+    display: inline-block;
 }
 
 footer .foot-cont .foot-right {
@@ -485,6 +504,7 @@ footer .foot-cont .foot-right .icon-volume div {
     height: .2rem;
     width: 100%;
     border-radius: 20px;
+    position: relative;
 }
 
 footer .foot-cont .foot-right .icon-volume div .in-bar {
@@ -492,6 +512,26 @@ footer .foot-cont .foot-right .icon-volume div .in-bar {
     height: 100%;
     width: 25%;
     border-radius: 20px;
+}
+
+footer .foot-cont .foot-right .icon-volume div:hover .in-bar {
+    background-color: rgb(192, 255, 49);
+}
+
+footer .foot-cont .foot-right .icon-volume div:hover .bar-active::before {
+    display: inline-block;
+}
+
+.bar-active::before {
+    display: none;
+    content: "";
+    position: absolute;
+    left: 90%;
+    top: -5px;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
 
 @media  screen and (max-width: 768px) {
