@@ -271,7 +271,7 @@ main aside .aside-cont .bottom-nav .user .profile img {
     font-size: 2em;
 }
 
-.corpo-cent .album-sec .item-cont .item .img-cont:hover .img-play {
+.corpo-cent .album-sec .item-cont .item:hover .img-cont .img-play {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +298,7 @@ main aside .aside-cont .bottom-nav .user .profile img {
 }
 
 
-.corpo-cent .album-sec .item-cont-2 .item .img-cont:hover .img-play {
+.corpo-cent .album-sec .item-cont-2 .item:hover .img-cont .img-play {
     display: flex;
     justify-content: center;
     align-items: center;
